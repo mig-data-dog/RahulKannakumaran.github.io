@@ -1,0 +1,126 @@
+body {
+	background: whitesmoke;
+ }
+  
+ header{
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	border-bottom: solid darkgrey 0.5px;
+	background-color: whitesmoke;
+	overflow: hidden;
+	z-index: 2;
+ }
+
+.title {
+	font-family: 'Rajdhani', sans-serif;
+	text-align: center;
+	text-decoration: none;
+	margin: 0.5%;
+  
+ }
+
+nav{
+	height: auto; 
+	width: 10%; 
+	position: fixed; 
+	top: 0;
+	left: 0;
+	margin-top: 10.9%;
+	background-color: whitesmoke; 
+	border: solid darkgrey 1px;
+	overflow-x: hidden; 
+	margin-left: 1%;
+	float: left;
+ }
+
+ .nav{
+	padding: 0.1%;
+	text-decoration: none;
+	font-size: 25px;
+	display: block;
+}
+
+  
+ h2,h1 {
+	font-family: 'Roboto', sans-serif;
+	text-align:center;
+}
+
+.nav:hover{
+	text-decoration: underline;
+	background-color: #9c9c9c;
+	transition: 1s;
+	box-shadow: 3px 3px lightgray;
+}
+
+#background{
+	padding: 0.5%;
+	background: lightgray;
+	height: auto;
+}
+
+#content{
+	margin-left: 15%;
+	margin-right: auto;
+	background:whitesmoke;
+	width: 80%;
+	padding: 0.1%;
+	position: relative;
+	margin-top: 10.2%;
+	min-height: 450px;
+	height: auto;
+	border: solid darkgrey 0.5px;
+	z-index: 1;
+}
+
+h3{
+	font-family: 'Roboto', sans-serif;
+}
+
+#footer{
+	height: auto;
+	width: 100%;
+	border-top: solid darkgrey 0.5px;
+	border-bottom: solid darkgrey 0.5px;
+	margin-top: 0.1%;
+	background-color: whitesmoke;
+}
+
+.ftext{
+	color:#545454;
+}
+
+.box {
+	align-items: left;
+	margin-left: 5%;
+	margin-bottom: 2%;
+ }
+
+ .author{
+	text-align: left;
+	text-align: top;
+ }
+
+ a{
+	 text-decoration: underline black;
+	 color: inherit;
+ }
+
+
+table, th, td {
+	border: 1px solid black;
+	padding: 1%;
+}
+
+table {
+	border-collapse: collapse;
+	width: 90%;
+}
+
+img {
+	width: 45%;
+	height: 45%;
+	margin: 2%;
+}
